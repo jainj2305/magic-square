@@ -36,9 +36,9 @@ def magic_square(n):
 
 def run():
     while True:
-        x=int(input("Enter any odd no.: "))
+        x=int(input("Enter any number: "))
         if(x%2==0):
-            print("Sorry it's magic square is not possible!!\nPlease enter a odd no.:")
+            print("Unable to create magic square for even numbers!!\nPlease enter a odd number:")
         else:
             magic_square(x)
             break
